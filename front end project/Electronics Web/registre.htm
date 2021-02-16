@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>ElectronecWeb - registre</title>
+    <link rel="stylesheet" type="text/css" href="log in.css">
+
+    <script type="text/javascript">
+    function Validate() {
+        var password = document.getElementById("in2").value;
+        var confirmPassword = document.getElementById("in3").value;
+        
+        if (password != confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+        return true;
+    }
+</script>
+</head>
+
+<body>
+
+<form class="box" action="log in.htm" method="post">
+  <h1> registre </h1>
+  <input id="in1" type="text" name="first name" placeholder="first name">
+  <input id="in1" type="text" name="last name" placeholder="last name">
+  <input id="in1" type="text" name="email" placeholder="email">
+  <input id="in1" type="text" name="username" placeholder="username">
+  <input id="in2" type="password" name="password" placeholder="password">
+  <input id="in3" type="password" name="password" placeholder="confirm password">
+  <input id="log" type="submit" name="username" value="registre" onclick="return Validate()">
+
+</form>
+
+</body>
+</html>

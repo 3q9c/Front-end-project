@@ -1,0 +1,24 @@
+  section{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50% , -50%);
+  }
+
+  #a1{
+  border: none;
+  background: none;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 silver;
+  padding: 14px 40px;
+  color: dodgerblue;
+  border-radius: 24px;
+  transition: 0.25s; 
+  cursor: pointer;
+  }
+
+  #a1:hover{
+  background-color: dodgerblue;
+  color: white;
+ }
